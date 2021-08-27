@@ -1,5 +1,5 @@
-amoopguis
+alias firebase="`npm config get prefix`/bin/firebase"
 
 
-test update among us w12
-afghioaiohgoihagoiaoig
+
+amoogus
