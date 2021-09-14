@@ -10,7 +10,7 @@ body {
   background: #f1f5f8;
   color: #222;
 }
-img {
+.event img {
   height: auto;
   width: 135px;
 }
@@ -35,5 +35,16 @@ img {
 }
 
 .event h1 {
+  color: #617d98;
   margin-top: 0.5rem;
+}
+
+.event h3 {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: #617d98;
+}
+
+.event h4 {
+  font-size: 0.8rem;
 }
