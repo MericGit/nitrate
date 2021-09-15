@@ -1,11 +1,8 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import reactDom from 'react-dom';
 import "./index.css"; 
+import db from './databaseUtils.js';
 
-const image = ""
-const title = ""
-const desc = ""
-const date = ""
 
 function App(){
   return (
@@ -14,10 +11,11 @@ function App(){
       <Event image="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4959784.jpg" title = "Forest Cleanup" date = "9/23/2021" desc = "Clean up the forest! and then vent through the forest"/>
       <Event image="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4959784.jpg" title = "Forest Cleanup" date = "9/4/2021" desc = "Clean up the forest! and find the imposters"/>
       <Event image="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4959784.jpg" title = "Forest Cleanup" date = "10/31/2021" desc = "Clean up the forest! and call emergency meetings"/>
-      <Event image="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4959784.jpg" title = "Forest Cleanup" date = "4/6/2021" desc = "Clean up the forest! sus! sus!"/>
+      <Event image="https://discourse.disneyheroesgame.com/uploads/default/original/3X/c/2/c23f54aea2065f106e4dbb8218d0ce2d7853351c.png" title = "Forest Cleanup" date = "4/6/2021" desc = "Clean up the forest! sus! sus!"/>
     </section>
   )
 }
+
 
 const Event = (props) => {
   const {image, title, date, desc} = props
@@ -30,6 +28,9 @@ const Event = (props) => {
     </article>
   );
 };
+
 reactDom.render(<App/>,document.getElementById('root'));
+
+
 
 
