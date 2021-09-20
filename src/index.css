@@ -11,8 +11,8 @@ body {
   color: #222;
 }
 .event img {
-  height: auto;
-  width: 135px;
+  height: 150px;
+  width: 150px;
 }
 .events {
   width: 90vw;
