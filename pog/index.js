@@ -1,6 +1,7 @@
 import React from 'react'
 import reactDom from 'react-dom';
 import "./index.css"; 
+import db from './databaseUtils.js';
 
 
 function App(){
